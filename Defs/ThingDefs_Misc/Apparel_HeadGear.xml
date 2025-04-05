@@ -77,7 +77,7 @@
     <!--shiri -->
      <ThingDef ParentName="MMM_Apparel_HeadGear_Hat_Base">
     <defName>MMM_Apparel_ShiriBow</defName>
-    <label>cloudys hat</label>
+    <label>shiris bow</label>
     <description>big hat</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Shiri/HairBow/HairBow</texPath>
@@ -102,9 +102,9 @@
      <ThingDef ParentName="MMM_Apparel_HeadGearBase">
     <defName>MMM_MaidMia_headband</defName>
     <label>maid headdress</label>
-    <description>placeholder</description>
+    <description>useful for cosplay. thats about it</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Neko_eye_mask/Mask</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Shamia/HeadGear_Maid/headress</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>10</costStuffCount>
@@ -112,7 +112,7 @@
         <li>Fabric</li>
     </stuffCategories>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Neko_eye_mask/Mask</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Shamia/HeadGear_Maid/headress</wornGraphicPath>
       <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>

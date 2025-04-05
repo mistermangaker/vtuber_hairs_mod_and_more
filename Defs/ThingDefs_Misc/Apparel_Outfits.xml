@@ -39,7 +39,7 @@
   <ThingDef ParentName="MMM_Apparel_CustomBase">
     <defName>MMM_Apparel_Shamia_Outfit_One</defName>
     <label>shamia's outfit</label>
-    <description>let's be honest. its actually a schoolgirls outfit</description>
+    <description>let's be honest. its actually a schoolgirls outfit that she modified</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Shamia/Outfit_Main/dress3</texPath>
       <ignoreThingDrawColor>true</ignoreThingDrawColor>
@@ -76,7 +76,7 @@
    <ThingDef ParentName="MMM_Apparel_CustomBase">
     <defName>MMM_Apparel_Shamia_Maid_One</defName>
     <label>maid outfit</label>
-    <description>uwu</description>
+    <description>you like maids dont you?</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Shamia/Outfit_Maid/dress3</texPath>
       <ignoreThingDrawColor>true</ignoreThingDrawColor>

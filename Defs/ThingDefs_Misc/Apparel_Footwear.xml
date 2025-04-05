@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
    <ThingDef Name="MMM_Apparel_FootWear_Base" Abstract="True" ParentName="MMM_Apparel_CustomBase">
-        <countsAsClothingForNudity>false</countsAsClothingForNudity>
+        
         <recipeMaker>
             <researchPrerequisite>ComplexClothing</researchPrerequisite>
         </recipeMaker>
@@ -16,6 +16,7 @@
           <EquipDelay>1.5</EquipDelay>
         </statBases>
         <apparel>
+        <countsAsClothingForNudity>false</countsAsClothingForNudity>
             <bodyPartGroups>
                 <li>Feet</li>
             </bodyPartGroups>
@@ -76,10 +77,10 @@
     </ThingDef>
 
 
-      <ThingDef ParentName="NekoFootWearBase">
+  <ThingDef ParentName="MMM_Apparel_FootWear_ShoesBase">
     <defName>MMM_Footwear_ShamiaBoots</defName>
     <label>shamia's boots</label>
-    <description>placeholder</description>
+    <description>dont tell shamia that we took these</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Shamia/Wearables/Boots</texPath>
       <graphicClass>Graphic_Single</graphicClass>
