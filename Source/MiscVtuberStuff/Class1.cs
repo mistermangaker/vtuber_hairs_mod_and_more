@@ -22,19 +22,7 @@ namespace MiscVtuberStuff
             new Harmony("vtuberstuff").PatchAll(Assembly.GetExecutingAssembly());
         }
 
-        [HarmonyPatch]
-        public static class ApparelPatch
-        {
-            //[HarmonyPatch(typeof(ApparelUtility), "CanWearTogether")]
-            //[HarmonyPrefix]
-            public static bool canweartogether(bool __result, ThingDef A, ThingDef B, BodyDef body)
-            {
-                
-                //CustomApperal ap = A.apparel;
-                    
-              return true;
-            }
-        }
+        
 
     }
         public class CustomApperal : Apparel

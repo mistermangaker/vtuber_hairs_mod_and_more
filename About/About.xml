@@ -6,5 +6,13 @@
   <supportedVersions>
     <li>1.5</li>
   </supportedVersions>
+  <modDependencies>
+  	<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+  </modDependencies>
   <description>a small collection of hair, hats, accessories, and more of all the vtubers whom im friends with or a fan of</description>
 </ModMetaData>
