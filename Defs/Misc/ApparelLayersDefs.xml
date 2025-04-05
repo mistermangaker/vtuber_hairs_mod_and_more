@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+   <ApparelLayerDef>
+    <defName>MMM_UnderWear</defName>
+    <label>underwear</label>
+    <drawOrder>-20</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>MMM_Accessories</defName>
+    <label>accessories</label>
+    <drawOrder>0</drawOrder>
+  </ApparelLayerDef>
+
+    <ApparelLayerDef>
+    <defName>MMM_Feet</defName>
+    <label>feet</label>
+    <drawOrder>-25</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>MMM_Hands</defName>
+    <label>hands</label>
+    <drawOrder>-25</drawOrder>
+  </ApparelLayerDef>
+
+   <ApparelLayerDef>
+    <defName>MMM_HandsAccessories</defName>
+    <label>hand accessories</label>
+    <drawOrder>0</drawOrder>
+  </ApparelLayerDef>
+</Defs>

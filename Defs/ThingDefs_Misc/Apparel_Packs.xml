@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+   <ThingDef Name="MMM_Apparel_BagBase" Abstract="True" ParentName="MMM_Apparel_CustomBase">
+	<techLevel>Industrial</techLevel>
+	<tradeability>Sellable</tradeability>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <Mass>0.5</Mass>
+      <Flammability>1</Flammability>
+      <EquipDelay>1</EquipDelay>
+	</statBases>
+    <stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+  <costStuffCount>30</costStuffCount>
+  <thingCategories>
+		<li>MMM_PacksAndBags</li>
+	</thingCategories>
+	<equippedStatOffsets>
+      <CarryingCapacity>50</CarryingCapacity>
+    </equippedStatOffsets>
+</ThingDef>
+
+</Defs>

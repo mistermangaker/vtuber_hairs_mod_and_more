@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef Name="MMM_BaseSoftWeapons" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Industrial</techLevel>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <recipeMaker>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Gold</li>
+          <li>Silver</li>
+          <li>Plasteel</li>
+          <li>Jade</li>
+          <li>Uranium</li>
+          <li MayRequire="Ludeon.RimWorld.Anomaly">Bioferrite</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="MMM_BasePlushie" Abstract="True" ParentName="MMM_BaseSoftWeapons">
+  <recipeMaker>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Gold</li>
+          <li>Silver</li>
+          <li>Plasteel</li>
+          <li>Jade</li>
+          <li>Uranium</li>
+          <li MayRequire="Ludeon.RimWorld.Anomaly">Bioferrite</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+      <!--<unfinishedThingDef>UnfinishedPlushie</unfinishedThingDef>-->
+    </recipeMaker>
+    <uiIconScale>1.1</uiIconScale>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+        <Beauty>8</Beauty>
+      <WorkToMake>800</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+  <equippedStatOffsets>
+      <ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+      <InjuryHealingFactor>0.05</InjuryHealingFactor>
+    </equippedStatOffsets>
+  <thingCategories>
+      <li>WeaponsPlushie</li>
+    </thingCategories>
+  <weaponTags>
+      <li>MMM_Plushies</li>
+    </weaponTags>
+  <tools>
+      <li>
+        <label>Plushie</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+
+
+
+</Defs>

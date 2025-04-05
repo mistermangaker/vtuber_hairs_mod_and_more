@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+     <ThingDef Name="MMM_Apparel_NeckwearBase" Abstract="True" ParentName="MMM_Apparel_CustomBase">
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <displayPriority>205</displayPriority>
+    </recipeMaker>
+    <thingCategories>
+      <li>MMM_Trinkets</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>800</WorkToMake>
+      <Mass>0.25</Mass>
+    </statBases>
+    <apparel>
+    <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MMM_UnderWear</li>
+      </layers>
+      <tags>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>    
+    </apparel>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+
+   <ThingDef Name="MMM_Apparel_Undergarments_Base" Abstract="True" ParentName="MMM_Apparel_CustomBase">
+        <countsAsClothingForNudity>false</countsAsClothingForNudity>
+        <recipeMaker>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+        </recipeMaker>
+        <tradeTags>
+            <li>BasicClothing</li>
+        </tradeTags>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.25</Mass>
+          <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+        <tags>
+            <li>IndustrialBasic</li>
+        </tags>
+        <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+    </ThingDef>
+
+       <ThingDef Name="MMM_Apparel_UndergarmentsTop_Base" Abstract="True" ParentName="MMM_Apparel_Undergarments_Base">
+        <statBases>
+          <WorkToMake>600</WorkToMake>
+          <Mass>0.5</Mass>
+        </statBases>
+        <apparel>
+            <layers>
+              <li>MMM_UnderWear</li>
+            </layers>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+        <tags>
+            <li>MMM_UnderGarments_top</li>
+        </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef Name="MMM_Apparel_UndergarmentsBottom_Base" Abstract="True" ParentName="MMM_Apparel_Undergarments_Base">
+      <statBases>
+        <WorkToMake>800</WorkToMake>
+        <Mass>0.8</Mass>
+      </statBases>
+      <apparel>
+          <layers>
+            <li>MMM_UnderWear</li>
+          </layers>
+          <bodyPartGroups>
+              <li>Legs</li>
+          </bodyPartGroups>
+        <tags>
+          <li>MMM_UnderGarments_Bottom</li>
+        </tags>
+      </apparel>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+   	<HairDef>
+		<defName>Shamia_HairOne</defName>
+		<label>shamia's hair</label>
+		<styleGender>Any</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hair/ShamiaHairOne</texPath>
+		<category>MMM_shamia</category>
+		<styleTags>
+			<li>Urban</li>
+			<li>Punk</li>
+		</styleTags>
+	</HairDef>
+
+		<HairDef>
+		<defName>Cloudy_HairOne</defName>
+		<label>cloudys hair</label>
+		<styleGender>Any</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hair/CloudyHairOne</texPath>
+		<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+		<category>MMM_cloudy</category>
+		<styleTags>
+			<li>Urban</li>
+			<li>Punk</li>
+		</styleTags>
+	</HairDef>
+
+  <HairDef>
+		<defName>Nixx_HairOne</defName>
+		<label>nixx's hair</label>
+		<styleGender>Any</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hair/NixxHairOne</texPath>
+		<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+		<category>MMM_nixx</category>
+		<styleTags>
+			<li>Urban</li>
+			<li>Punk</li>
+		</styleTags>
+	</HairDef>
+
+  <HairDef>
+		<defName>Nixx_HairTwo</defName>
+		<label>nixx's hair</label>
+		<styleGender>Any</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hair/NixxHairTwo</texPath>
+		<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+		<category>MMM_nixx</category>
+		<styleTags>
+			<li>Urban</li>
+			<li>Punk</li>
+		</styleTags>
+	</HairDef>
+	  
+	<HairDef>
+	<defName>Merp_HairOne</defName>
+    <label>merp's hair</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hair/MerpHairOne</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </styleTags>
+  </HairDef>
+  
+     <HairDef>
+    <defName>Shiri_HairOne</defName>
+	<label>Shiri</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hair/ShiriHairOne</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </styleTags>
+  </HairDef>
+
+
+
+</Defs>

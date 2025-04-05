@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingCategoryDef>
+      <defName>MMM_Accessories</defName>
+      <label>Accessories</label>
+      <parent>Apparel</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>MMM_FootWear</defName>
+      <label>Footwear</label>
+      <parent>MMM_Accessories</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>MMM_UnderGarments</defName>
+      <label>Under Garments</label>
+      <parent>MMM_Accessories</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>MMM_Trinkets</defName>
+      <label>Trinkets</label>
+      <parent>MMM_Accessories</parent>
+    </ThingCategoryDef>
+
+
+    <ThingCategoryDef>
+      <defName>MMM_PacksAndBags</defName>
+      <label>Bags</label>
+      <parent>ApparelUtility</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>NonViolent</defName>
+        <label>NonViolent Gear</label>
+        <parent>Root</parent>
+    </ThingCategoryDef>
+
+</Defs>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+   <ThingDef Name="MMM_Apparel_FootWear_Base" Abstract="True" ParentName="MMM_Apparel_CustomBase">
+        <countsAsClothingForNudity>false</countsAsClothingForNudity>
+        <recipeMaker>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+        </recipeMaker>
+        <tradeTags>
+            <li>BasicClothing</li>
+        </tradeTags>
+        
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>1600</WorkToMake>
+          <Mass>0.25</Mass>
+          <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Feet</li>
+            </bodyPartGroups>
+        <tags>
+            <li>IndustrialBasic</li>
+        </tags>
+        <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+
+    </ThingDef>
+
+     <ThingDef Name="MMM_Apparel_FootWear_SocksBase" Abstract="True" ParentName="MMM_Apparel_FootWear_Base">
+        <statBases>
+          <WorkToMake>600</WorkToMake>
+        </statBases>
+        <thingCategories>
+            <li>MMM_UnderGarments</li>
+        </thingCategories>
+        <apparel>
+            <bodyPartGroups>
+                <li>Feet</li>
+            </bodyPartGroups>
+        <layers>
+            <li>MMM_UnderWear</li>
+        </layers>
+        <tags>
+            <li>MMM_Socks</li>
+        </tags>
+        </apparel>
+        <costStuffCount>30</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+    </ThingDef>
+
+    <ThingDef Name="MMM_Apparel_FootWear_ShoesBase" Abstract="True" ParentName="MMM_Apparel_FootWear_Base">
+        <equippedStatOffsets>
+            <MoveSpeed>0.05</MoveSpeed>
+        </equippedStatOffsets>
+        <thingCategories>
+            <li>MMM_FootWear</li>
+        </thingCategories>
+        <apparel>
+            <bodyPartGroups>
+                <li>Feet</li>
+            </bodyPartGroups>
+        <layers>
+            <li>MMM_Feet</li>
+        </layers>
+        <tags>
+            <li>MMM_Shoes</li>
+        </tags>
+        </apparel>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>50</costStuffCount>
+    </ThingDef>
+
+
+      <ThingDef ParentName="NekoFootWearBase">
+    <defName>MMM_Footwear_ShamiaBoots</defName>
+    <label>shamia's boots</label>
+    <description>placeholder</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Shamia/Wearables/Boots</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+        <tags>
+            <li>Shamia_Main</li>
+        </tags>
+    </apparel>
+  </ThingDef>
+
+</Defs>

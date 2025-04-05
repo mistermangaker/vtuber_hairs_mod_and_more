@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef Name="MMM_Apparel_CustomBase" ParentName="ApparelMakeableBase" Abstract="True">
+    <thingClass>MiscVtuberStuff.CustomApperal</thingClass>
+    <apparel>
+        <defaultOutfitTags>
+            <li>Worker</li>
+            <li>Soldier</li>
+        </defaultOutfitTags>
+        <renderSkipFlags IgnoreIfNoMatchingField="True">
+            <li>None</li>
+        </renderSkipFlags>
+        <drawData IgnoreIfNoMatchingField="True">
+            <dataNorth>
+                <layer>51</layer>
+            </dataNorth>
+        </drawData>
+        <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+	</apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+ <ThingDef Name="MMM_Apparel_Outfit_Base" ParentName="ApparelMakeableBase" Abstract="True">
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="MMM_Apparel_CustomBase">
+    <defName>MMM_Apparel_Shamia_Outfit_One</defName>
+    <label>shamia's outfit</label>
+    <description>let's be honest. its actually a schoolgirls outfit</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Shamia/Outfit_Main/dress3</texPath>
+      <ignoreThingDrawColor>true</ignoreThingDrawColor>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Shamia/Outfit_Main/dress3</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Shamia_Main</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+   <ThingDef ParentName="MMM_Apparel_CustomBase">
+    <defName>MMM_Apparel_Shamia_Maid_One</defName>
+    <label>maid outfit</label>
+    <description>uwu</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Shamia/Outfit_Maid/dress3</texPath>
+      <ignoreThingDrawColor>true</ignoreThingDrawColor>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Shamia/Outfit_Maid/dress3</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Shamia_Maid</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="MMM_Apparel_CustomBase">
+    <defName>MMM_Apparel_Merp_One</defName>
+    <label>merps outfit</label>
+    <description>uwu</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Merp/Outfit_Main/dress4</texPath>
+      <ignoreThingDrawColor>true</ignoreThingDrawColor>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Merp/Outfit_Main/dress4</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Merps</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+</Defs>
