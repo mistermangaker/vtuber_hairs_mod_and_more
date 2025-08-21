@@ -4,7 +4,18 @@
 		<defName>Shamia_HairOne</defName>
 		<label>shamia's hair</label>
 		<styleGender>Any</styleGender>
-		<texPath>Things/Pawn/Humanlike/Hair/ShamiaHairOne</texPath>
+		<texPath>Things/Pawn/Humanlike/Hair/ShamiaHair</texPath>
+		<category>MMM_shamia</category>
+		<styleTags>
+			<li>Urban</li>
+			<li>Punk</li>
+		</styleTags>
+	</HairDef>
+	<HairDef>
+		<defName>Shamia_HairTwo</defName>
+		<label>shamia's hair</label>
+		<styleGender>Any</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hair/ShamiaHairShort</texPath>
 		<category>MMM_shamia</category>
 		<styleTags>
 			<li>Urban</li>
@@ -56,6 +67,7 @@
     <label>merp's hair</label>
     <styleGender>Any</styleGender>
     <texPath>Things/Pawn/Humanlike/Hair/MerpHairOne</texPath>
+	<category>MMM_Merp</category>
     <styleTags>
       <li>Urban</li>
       <li>Rural</li>
@@ -67,6 +79,7 @@
 	<label>Shiri</label>
     <styleGender>Any</styleGender>
     <texPath>Things/Pawn/Humanlike/Hair/ShiriHairOne</texPath>
+	<category>MMM_shiri</category>
     <styleTags>
       <li>Urban</li>
       <li>Rural</li>

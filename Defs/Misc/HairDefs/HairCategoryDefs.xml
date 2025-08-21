@@ -1,19 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
   <StyleItemCategoryDef>
     <defName>MMM_shamia</defName>
     <label>shamia</label>
   </StyleItemCategoryDef>
-    <StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
     <defName>MMM_cloudy</defName>
     <label>cloudy</label>
   </StyleItemCategoryDef>
-    <StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
     <defName>MMM_nixx</defName>
     <label>nixx</label>
   </StyleItemCategoryDef>
-    <StyleItemCategoryDef>
+  
+  <StyleItemCategoryDef>
     <defName>MMM_shiri</defName>
     <label>shiri</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>MMM_Merp</defName>
+    <label>merp</label>
   </StyleItemCategoryDef>
 </Defs>

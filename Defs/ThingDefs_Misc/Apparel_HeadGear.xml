@@ -119,4 +119,53 @@
     </apparel>
   </ThingDef>
 
+
+<ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_sunglasses</defName>
+    <label>cowboyhat + sunglasses combo</label>
+    <description>A sick ass pair of sunglasses</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Misc/Sunglasses/CowboyHat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.15</uiIconScale>
+      <costList>
+      <Plasteel>5</Plasteel>
+    </costList>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>1.4</Mass>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.10</PainShockThreshold>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Misc/Sunglasses/CowboyHat</wornGraphicPath>
+      <!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <layers> 
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Sculpt</effectWorking>
+      <soundWorking>Recipe_Sculpt</soundWorking>
+      <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+    </recipeMaker>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+
 </Defs>

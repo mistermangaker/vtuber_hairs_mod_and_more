@@ -13,6 +13,12 @@
   </ApparelLayerDef>
 
     <ApparelLayerDef>
+    <defName>MMM_NeckAccessories</defName>
+    <label>Neck Wear</label>
+    <drawOrder>0</drawOrder>
+  </ApparelLayerDef>
+
+    <ApparelLayerDef>
     <defName>MMM_Feet</defName>
     <label>feet</label>
     <drawOrder>-25</drawOrder>

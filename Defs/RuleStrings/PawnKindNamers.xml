@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+   
+    <RulePackDef>
+      <defName>SweetHeart_NameMaker</defName>
+      <rulePack>
+          <rulesStrings>
+              <li>r_name(p=10)->Sweet sweetheart Heart</li>
+              <li>r_name->Sweetheart Sweetheart The [Num]</li>
+              
+              <li>Num(p=25)->69th</li>
+              
+              <li>Num->2nd</li>
+              <li>Num->3rd</li>
+              <li>Num->4th</li>
+              <li>Num->5th</li>
+              <li>Num->6th</li>
+              <li>Num->7th</li>
+              <li>Num->8th</li>
+              <li>Num->9th</li>
+              <li>Num->10th</li>
+              <li>Num->11th</li>
+              <li>Num->12th</li>
+              <li>Num->13th</li>
+              <li>Num->14th</li>
+              <li>Num->15th</li>
+              <li>Num->16th</li>
+              <li>Num->17th</li>
+              <li>Num->18th</li>
+              <li>Num->19th</li>
+              <li>Num->20th</li>
+              <li>Num->21st</li>
+              <li>Num->22nd</li>
+              <li>Num->23rd</li>
+              <li>Num->24th</li>
+              <li>Num->25th</li>
+              <li>Num->26th</li>
+              <li>Num->27th</li>
+              <li>Num->28th</li>
+              <li>Num->29th</li>
+              <li>Num->30th</li>
+              <li>Num->31st</li>
+              <li>Num->32nd</li>
+              <li>Num->33rd</li>
+              <li>Num->34th</li>
+              <li>Num->35th</li>
+              <li>Num->36th</li>
+              <li>Num->37th</li>
+              <li>Num->38th</li>
+              <li>Num->39th</li>
+              <li>Num->40th</li>
+              <li>Num->41st</li>
+              <li>Num->42nd</li>
+              <li>Num->43rd</li>
+              <li>Num->44th</li>
+              <li>Num->45th</li>
+              <li>Num->46th</li>
+              <li>Num->47th</li>
+              <li>Num->48th</li>
+              <li>Num->49th</li>
+              <li>Num->50th</li>
+          </rulesStrings>
+      </rulePack>
+    </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFallenAngel</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->Miss Mononoke</li>
+        <li>r_name->Shadaddy deer</li>
+        <li>r_name->Rizzmia 'The Rizzler' Rizzledizle</li>
+        <li>r_name(p=15)->[firstName] [lastName]</li>
+        <li>r_name(p=7)->[firstName] '[GenName]' [lastName]</li>
+
+        <li>firstName(p=10)->Shamia</li>
+        <li>firstName->Sha[Mid]</li>
+        <li>firstName->[Mid]mia</li>
+        <li>firstName->[GenName]</li>
+       
+        <li>GenName(p=5)->Shamarvin</li>
+        <li>GenName->Shah My Ah</li>
+        <li>GenName->Shapartner</li>
+        <li>GenName->ShamarioLive</li>
+        <li>GenName->Shammy</li>
+        <li>GenName->Shamingus</li>
+        <li>GenName->Pink Thing</li>
+        <li>GenName->Sham Sham</li>
+        <li>GenName->Shameowmeow</li>
+        <li>GenName->Shanono</li>
+        <li>GenName(p=5)->Sigmia</li>
+        <li>GenName->Shamaya</li>
+        <li>GenName(p=5)->Shamus</li>
+        <li>GenName->rizz</li>
+        <li>GenName->mia</li>
+
+        <li>Mid->stinky</li>
+        <li>Mid->draw</li>
+        <li>Mid->smell</li>
+        <li>Mid->dork</li>
+        <li>Mid->baka</li>
+        <li>Mid->uwu</li>
+        <li>Mid->arist</li>
+        <li>Mid->short</li>
+        <li>Mid->scared</li>
+        <li>Mid->cry</li>
+        <li>Mid->daddydeer</li>
+        <li>Mid->rizz</li>
+
+        <li>lastName(p=20)->Live</li>
+        <li>lastName(p=5)->Live_</li>
+        <li>lastName->Deer</li>
+        <li>lastName->Rizzed</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+
+
+</Defs>

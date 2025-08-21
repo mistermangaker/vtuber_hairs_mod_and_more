@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+   <PawnKindDef>
+    <defName>MMM_Sweetheart</defName>
+    <label>sweetheart</label>
+    <labelMale>sweetheart</labelMale>
+    <labelFemale>sweetheartess</labelFemale>
+    <labelPlural>sweethearties</labelPlural>
+    <race>Human</race>
+    <defaultFactionType>OutlanderCivil</defaultFactionType>
+    <combatPower>50</combatPower>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>30</maxGenerationAge>
+    <isFighter>true</isFighter>
+    <nameMaker>SweetHeart_NameMaker</nameMaker>
+      <backstoryFiltersOverride>
+        <li>
+            <categoriesChildhood>
+                <li>Tribal</li>
+            </categoriesChildhood>
+            <categoriesAdulthood>
+                <li>Offworld</li>
+                <li>Outlander</li>
+                <li>Outsider</li>
+            </categoriesAdulthood>
+        </li>
+    </backstoryFiltersOverride>
+    <requiredWorkTags>
+        <li>Violent</li>
+        <li>Artistic</li>
+        <li>Caring</li>
+    </requiredWorkTags>
+    <gearHealthRange>1~1</gearHealthRange>
+    <itemQuality>Good</itemQuality>
+    <weaponMoney>1010~1500</weaponMoney>
+    <forceWeaponQuality>Masterwork</forceWeaponQuality>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+      <inventoryOptions>
+      <subOptionsTakeAll>
+          <li>
+              <thingDef>MealSurvivalPack</thingDef>
+              <countRange>10</countRange>
+          </li>
+          <li>
+              <thingDef>MedicineUltratech</thingDef>
+              <countRange>10</countRange>
+          </li>
+          <li>
+              <thingDef>SmokeleafJoint</thingDef>
+              <countRange>10</countRange>
+          </li>
+      </subOptionsTakeAll>
+  </inventoryOptions>
+    <!--<apparelMoney>500~1000</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>-->
+    <apparelRequired>
+      <li>Apparel_CollarShirt</li>
+      <li>Apparel_Pants</li>
+      <li>Apparel_Duster</li>
+      <li>Apparel_FlakVest</li>
+      <li>Apparel_sunglasses</li>
+      
+      
+    </apparelRequired>
+            <apparelDisallowTags>
+            <li>IndustrialMilitaryBasic</li>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefenseTox</li>
+            <li>SpacerMilitary</li>
+            <li>BeltDefensePop</li>
+            <li>SpacerMilitary</li>
+        </apparelDisallowTags>
+    <apparelColor>(58,58,58)</apparelColor>
+    <ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
+    
+    <initialWillRange>0~0</initialWillRange>
+    <initialResistanceRange>0~2</initialResistanceRange>
+    <humanPregnancyChance>0</humanPregnancyChance>
+    <fixedGender>Male</fixedGender>
+    <skills>
+        <li>
+            <skill>Shooting</skill>
+            <range>10~20</range>
+        </li>
+        <li>
+            <skill>Melee</skill>
+            <range>17~20</range>
+        </li>
+        <li>
+            <skill>Artistic</skill>
+            <range>10~20</range>
+        </li>
+        <li>
+            <skill>Medicine</skill>
+            <range>7~15</range>
+        </li>
+    </skills>
+    <forcedTraits Inherit="False">
+        <NaturalMood>1</NaturalMood>
+        <Tough />
+        <Bloodlust />
+        <Beauty>2</Beauty>
+        
+    
+
+    </forcedTraits>
+    <disallowedTraits>
+        <li>Wimp</li>
+    </disallowedTraits>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>MMM_ShamiaColonist</defName>
+    <label>colonist</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <nameMaker>NamerFallenAngel</nameMaker>
+    <fixedGender>Female</fixedGender>
+    <humanPregnancyChance>0</humanPregnancyChance>
+    <xenotypeSet Inherit="False">
+        <xenotypeChances>
+            <Fallen_angel MayRequire="Ludeon.RimWorld.Biotech">999</Fallen_angel>
+        </xenotypeChances>
+    </xenotypeSet>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>30</maxGenerationAge>
+    <apparelTags>
+      <li>Shamia_Main</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>350~600</apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <initialResistanceRange>13~21</initialResistanceRange>
+  </PawnKindDef>
+
+
+    <PawnKindDef>
+    <defName>MMM_Kitsune_Shiri</defName>
+    <race>Human</race>
+    <defaultFactionType>OutlanderCivil</defaultFactionType>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <fixedGender>Female</fixedGender>
+    <humanPregnancyChance>0.2</humanPregnancyChance>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>34</maxGenerationAge>
+
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+
+    <techHediffsChance>0.1</techHediffsChance>
+    <techHediffsMoney>500~1000</techHediffsMoney>
+   <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <xenotypeSet Inherit="False">
+        <xenotypeChances>
+            <foxyfoxy MayRequire="Ludeon.RimWorld.Biotech">999</foxyfoxy>
+        </xenotypeChances>
+    </xenotypeSet>
+    <apparelMoney>350~600</apparelMoney>
+     <apparelTags>
+      <li>Neolithic</li>
+      <li>MedievalMilitary</li>
+    </apparelTags>
+    <combatPower>10</combatPower>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>9~15</initialResistanceRange>
+    <requiredWorkTags>
+        <li>Violent</li>
+    </requiredWorkTags>
+        <apparelRequired>
+      <li>MMM_Apparel_ShiriBow</li>
+    </apparelRequired>
+    <weaponMoney>330~650</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+  </PawnKindDef>
+
+
+    <PawnKindDef>
+    <defName>MMM_VoidBeing_Merperoni</defName>
+    <label>merp</label>
+
+    <race>Human</race>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+          <squidboi MayRequire="Ludeon.RimWorld.Biotech">999</squidboi>
+      </xenotypeChances>
+    </xenotypeSet>
+    <defaultFactionType>OutlanderCivil</defaultFactionType>
+    <combatPower>50</combatPower>
+    <minGenerationAge>25</minGenerationAge>
+    <maxGenerationAge>40</maxGenerationAge>
+    <isFighter>true</isFighter>
+      <fixedGender>Male</fixedGender>
+      <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Tribal</li>
+                <li>Offworld</li>
+                <li>Outlander</li>
+                <li>Outsider</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <requiredWorkTags>
+        <li>Violent</li>
+        <li>Artistic</li>
+    </requiredWorkTags>
+    <gearHealthRange>1~1</gearHealthRange>
+    <itemQuality>Good</itemQuality>
+    <weaponMoney>1010~1500</weaponMoney>
+    <forceWeaponQuality>Masterwork</forceWeaponQuality>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+
+<!--
+
+      <inventoryOptions>
+
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>shamia_pillow_two</thingDef>
+          <countRange>1</countRange>
+        </li>
+        <li>
+          <thingDef>shamia_pillow_one</thingDef>
+          <countRange>1</countRange>
+        </li>
+        <li>
+              <thingDef>paintingSmall</thingDef>
+              <countRange>1</countRange>
+          </li>
+      </subOptionsChooseOne>
+
+  </inventoryOptions>
+
+  -->
+    <apparelMoney>500~1000</apparelMoney>
+    <apparelTags>
+      <li>Merp_Main</li>
+    </apparelTags>
+
+            <apparelDisallowTags>
+            <li>IndustrialMilitaryBasic</li>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefenseTox</li>
+            <li>SpacerMilitary</li>
+            <li>BeltDefensePop</li>
+            <li>SpacerMilitary</li>
+        </apparelDisallowTags>
+   
+    <initialWillRange>0~0</initialWillRange>
+    <initialResistanceRange>0~2</initialResistanceRange>
+    <humanPregnancyChance>0</humanPregnancyChance>
+   
+  </PawnKindDef>
+
+
+</Defs>

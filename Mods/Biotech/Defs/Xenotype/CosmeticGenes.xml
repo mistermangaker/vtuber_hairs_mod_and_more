@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneDef>
+    <defName>AngelWings</defName>
+    <label>Angelic wings</label>
+    <description>An angel's wings are one of their core defining traits and allow them to soar above the earth. However, these wings are underdeveloped and can't carry an angel very far yet.</description>
+    <iconPath>UI/Gene_Icons/FallenAngelLongJump</iconPath>
+    <displayCategory>Angel_genes</displayCategory>
+    <biostatMet>-2</biostatMet>
+
+     <renderNodeProperties>
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Pawn/Humanlike/BodyParts/Wings/FallenAngelWings</texPath>
+        
+        <overrideMeshSize>(1, 1)</overrideMeshSize>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <defaultData>
+            <layer>-2</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, 0.4, -0.20)</offset>
+            <layer>90</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, -0.4, -0.05)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.10, -0.4, -0.05)</offset>
+          </dataEast>
+          <dataWest>
+            <offset>(-0.10, -0.4, -0.05)</offset>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+
+  </GeneDef>
+
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>FallenAngel_Horns</defName>
+		<label>Horns</label>
+		<description>These adorable little horns are the unmistakable trait of fallen angels. Don't mind the horns. Don't they look cute?</description>
+		<iconPath>UI/Gene_Icons/FallenAngelHorns</iconPath>
+		<displayCategory>Angel_genes</displayCategory>
+		<biostatMet>0</biostatMet>
+		<biostatCpx>0</biostatCpx>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/Humanlike/BodyParts/Horns/FallenAngelHorns</texPath>
+        <color>(255, 255, 255)</color>
+        <parentTagDef>Head</parentTagDef>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <layer>10</layer>
+          </dataNorth>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+
+	</GeneDef>
+
+
+<GeneDef  ParentName="GeneHairStyleBase">
+		<defName>FallenAngel_Hair</defName>
+		<label>Angel Hair</label>
+		<displayCategory>Angel_genes</displayCategory>
+		<description>byeah</description>
+		<iconPath>UI/Gene_Icons/FallenAngelHair</iconPath>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>MMM_shamia</li>
+			</tags>
+		</hairTagFilter>
+	</GeneDef>
+
+
+
+  <GeneDef ParentName="GeneVoiceBase">
+    <defName>AngelVoice</defName>
+    <label>angelic voice</label>
+    <description>Carriers have an extremely pleasant sounding voice. As a result they become </description>
+    <iconPath>UI/Gene_Icons/FallenAngelAngelicVoice</iconPath>
+    <displayOrderInCategory>126</displayOrderInCategory>
+    <statOffsets>
+      <TameAnimalChance>0.5</TameAnimalChance>
+      <NegotiationAbility>0.5</NegotiationAbility>
+      <TradePriceImprovement>0.7</TradePriceImprovement>
+      
+    </statOffsets>
+    <soundCall>Angel_Call</soundCall>
+    <soundDeath>Angel_death</soundDeath>
+    <soundWounded>Angel_hurt</soundWounded>
+
+  </GeneDef>
+
+
+     <GeneDef ParentName="GeneTailBase">
+    <defName>AngelTail_Smooth</defName>
+    <label>angelic tail</label>
+    <description>This forked tail is a natural trait of fallen angels. It swings back and forth when fallen angels are happy and excited... or preparing to feast on souls.</description>
+    <iconPath>UI/Gene_Icons/FallenAngelTail</iconPath>
+    <displayOrderInCategory>1023</displayOrderInCategory>
+    <capMods>
+      <li>
+        <capacity>Manipulation</capacity>
+        <offset>0.05</offset>
+      </li>
+    </capMods>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <displayCategory>Angel_genes</displayCategory>
+        <renderNodeProperties>
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Pawn/Humanlike/BodyParts/Tail/FallenAngelTail</texPath>
+        
+        <overrideMeshSize>(1, 1)</overrideMeshSize>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <defaultData>
+            <layer>-2</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, 0, -0.15)</offset>
+            <layer>90</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(-0, 0, -0.15)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.5, 0, -0.15)</offset>
+          </dataEast>
+          <dataWest>
+            <offset>(0.5, 0, -0.15)</offset>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+
+  </GeneDef>
+
+
+
+ <GeneDef ParentName="GeneEarsBase">
+    <defName>MMM_FoxEars</defName>
+    <label>fox ears</label>
+    <description>Carriers of this gene have fox-like ears.</description>
+    <iconPath>UI/Genes/gene_fox_ears</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/Humanlike/BodyParts/Ears/shiri_ears</texPath>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <parentTagDef>Head</parentTagDef>
+        <useRottenColor>true</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <defaultData>
+            <layer>70</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneTailBase">
+    <defName>MMM_FoxTail_Furry</defName>
+    <label>fox tail</label>
+    <description>Carriers of this gene grow a fluffy tail which partially protects them from cold temperatures.</description>
+    <iconPath>UI/Genes/gene_foxtail</iconPath>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <displayOrderInCategory>1120</displayOrderInCategory>
+    <statOffsets>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+    </statOffsets>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <renderNodeProperties>
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Pawn/Humanlike/BodyParts/Tail/shiri_tail</texPath>
+        <colorType>Hair</colorType>
+        <overrideMeshSize>(1, 1)</overrideMeshSize>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <defaultData>
+            <layer>-2</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0.1, 0, -0.25)</offset>
+            <layer>90</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(-0.1, 0, -0.25)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.5, 0, -0.15)</offset>
+          </dataEast>
+          <dataWest>
+            <offset>(0.5, 0, -0.15)</offset>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+
+
+
+  <GeneDef ParentName="GeneHairStyleBase">
+    <defName>MMM_FoxHair</defName>
+    <label>fox-haired</label>
+    <description>Carriers of this gene can only grow foxlike hair.</description>
+    <iconPath>UI/Genes/gene_shiri_hair</iconPath>
+    <displayOrderInCategory>56</displayOrderInCategory>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>MMM_shiri</li>
+      </tags>
+    </hairTagFilter>
+  </GeneDef>
+
+
+  
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>MMM_VoidHorns</defName>
+    <label>occular horns</label>
+    <description>"you cant sneak up on me. have eyes on the back of my head"</description>
+    <iconPath>UI/Genes/gene_merp_horns</iconPath>
+    <statFactors>
+      <PsychicSensitivity>1.5</PsychicSensitivity>
+    </statFactors>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-3</biostatMet>
+    <capMods>
+      <li>
+        <capacity>Sight</capacity>
+        <offset>0.5</offset>
+      </li>
+    </capMods>
+    <missingGeneRomanceChanceFactor>0.8</missingGeneRomanceChanceFactor>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/Humanlike/BodyParts/Horns/Angelic_occular_horns</texPath>
+        <color>(255, 255, 255)</color>
+        <parentTagDef>Head</parentTagDef>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <layer>10</layer>
+          </dataNorth>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+
+  <GeneDef ParentName="GeneTailBase">
+    <defName>MMM_VoidTentacles</defName>
+    <label>void tentacles</label>
+    <description>very grippy and dexturous limbs. can be used as additional hands and greatly increases manipulation. the tentacles are extremely slimey and have healing properties</description>
+    <iconPath>UI/Genes/gene_tentacles</iconPath>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <displayOrderInCategory>1120</displayOrderInCategory>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-4</biostatMet>
+  
+    <statOffsets>
+      <ComfyTemperatureMin>+10</ComfyTemperatureMin>
+      
+      <MeleeCooldownFactor>-0.3</MeleeCooldownFactor>
+    
+    </statOffsets>
+    <capMods>
+      <li>
+        <capacity>Manipulation</capacity>
+        <offset>2</offset>
+      </li>
+      <li>
+          <capacity>Moving</capacity>
+          <offset>0.2</offset>
+      </li>
+    </capMods>
+    <renderNodeProperties>
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Pawn/Humanlike/BodyParts/Tentacles/Angelic_tentacles</texPath>
+        <color>(255, 255, 255)</color>
+        <drawSize>(1.2,1.2)</drawSize>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          
+          <defaultData>
+            <layer>-2</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, 0, -0.25)</offset>
+            <layer>90</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, -0.25)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, -0.15)</offset>
+          </dataEast>
+          <dataWest>
+            <offset>(0, 0, -0.15)</offset>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+
+
+  <GeneDef ParentName="GeneHairStyleBase">
+    <defName>MMM_VoidHair</defName>
+    <label>void being hair</label>
+    <description>Carriers of this gene can only grow foxlike hair.</description>
+    <iconPath>UI/Genes/gene_merp_hair</iconPath>
+    <displayOrderInCategory>56</displayOrderInCategory>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>MMM_Merp</li>
+      </tags>
+    </hairTagFilter>
+  </GeneDef>
+
+
+</Defs>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <QuestScriptDef>
+    <defName>CubeReturned</defName>
+    <root Class="MiscVtuberStuff.QuestNode_CubeReturned" />
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <isRootSpecial>true</isRootSpecial>
+    <defaultHidden>true</defaultHidden>
+    <autoAccept>true</autoAccept>
+    <questNameRules>
+      <rulesStrings>
+        <li>questDescription->pollutionretaliation</li> <!-- hidden -->
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->pollutionretaliation</li> <!-- hidden -->
+      </rulesStrings>
+    </questDescriptionRules>
+    <questContentRules>
+      <rulesStrings>
+        
+        <!-- Letter Label -->
+        <li>retaliationLetterLabel->Mysterious Landing</li>
+        
+        <!-- Sender is null -->
+        <li>retaliationLetterText -> You have detected a drop pod landing somewhere on the map, but you couldn't get a signal on what was in. Very strange indeed... </li>
+
+      </rulesStrings>
+    </questContentRules>
+  </QuestScriptDef>
+
+</Defs>
